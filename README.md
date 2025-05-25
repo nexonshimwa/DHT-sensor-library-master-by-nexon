@@ -1,58 +1,18 @@
-# DHT sensor library [![Build Status](https://github.com/adafruit/DHT-sensor-library/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/DHT-sensor-library/actions)
+# DHT Sensor Library - by Nexon
 
-## Description
+This is my customized version of the DHT sensor library for Arduino, based on the Adafruit DHT library.
 
-An Arduino library for the DHT series of low-cost temperature/humidity sensors.
+## Features
+- Supports DHT11, DHT22, DHT21 sensors.
+- Easy to use with example sketches.
+- Compatible with most Arduino boards.
 
-You can find DHT tutorials [here](https://learn.adafruit.com/dht).
+## My Contribution
+I updated and repackaged this library for easier use and sharing via GitHub and GitHub Pages.
 
-# Dependencies
- * [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
+## How to Use
+1. Download the ZIP from [Releases](https://github.com/nexonshimwa/DHT-sensor-library-master-by-nexon/releases).
+2. In Arduino IDE, go to **Sketch > Include Library > Add .ZIP Library...**
+3. Select the downloaded ZIP and start coding!
 
-# Contributing
-
-Contributions are welcome!  Not only you’ll encourage the development of the library, but you’ll also learn how to best use the library and probably some C++ too
-
-Please read our [Code of Conduct](https://github.com/adafruit/DHT-sensor-library/blob/master/CODE_OF_CONDUCT.md>)
-before contributing to help this project stay welcoming.
-
-## Documentation and doxygen
-Documentation is produced by doxygen. Contributions should include documentation for any new code added.
-
-Some examples of how to use doxygen can be found in these guide pages:
-
-https://learn.adafruit.com/the-well-automated-arduino-library/doxygen
-
-https://learn.adafruit.com/the-well-automated-arduino-library/doxygen-tips
-
-Written by Adafruit Industries based on work by:
-
- * T. DiCola
- * P. Y. Dragon
- * L. Fried
- * J. Hoffmann
- * M. Kooijman
- * J. M. Dana
- * S. Conaway
- * S. IJskes
- * T. Forbes
- * B. C
- * T. J Myers
- * L. Sørup
- * per1234
- * O. Duffy
- * matthiasdanner
- * J. Lim
- * G. Ambrozio
- * chelmi
- * adams13x13
- * Spacefish
- * I. Scheller
- * C. Miller
- * 7eggert
-
-
-MIT license, check license.txt for more information
-All text above must be included in any redistribution
-
-To install, use the Arduino Library Manager and search for "DHT sensor library" and install the library.
+MIT License — © Nexon Shimwa
